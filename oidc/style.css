@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: whitesmoke;
+	font-family: Montserrat, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+h1 {
+	margin: 10px 0;
+    color: white;
+	word-break: break-all;
+}
+
+h3 {
+	margin: 5px 0;
+	text-transform: uppercase;
+    color: white;
+	word-break: break-all;
+}
+
+p {
+	font-size: 16px;
+	line-height: 21px;
+    color: white;
+	word-break: break-all;
+}
+
+.card-container {
+    background: linear-gradient(180deg, rgba(8,4,78,1) 0%, rgba(9,9,121,1) 51%, rgba(0,155,255,1) 100%);
+	box-shadow: 0px 20px 40px -10px rgba(0,0,0,0.75);
+	padding-top: 30px;	
+	width: 600px;
+	height: auto;
+	max-width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 25px;
+}
+
+.img-container {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 6em;
+}
+
+.round {
+	border: 3px solid whitesmoke;
+	border-radius: 50%;
+	padding: 2px;
+}
+
+.buttons {
+	margin-top: 2em;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+button.primary {
+	background-color: whitesmoke;
+	border: 1px solid black;
+	border-radius: 3px;
+	color: #231E39;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	padding: 10px 25px;
+}
+
+button.primary.ghost {
+	background-color: transparent;
+	color: black;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+}
+
+.infos {
+	background-color: #0a0a8a;
+    border-radius: 10px;
+	text-align: left;
+	padding: 15px;
+	margin-top: 30px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.infos ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.infos ul li {
+	border: 2px solid whitesmoke;
+	border-radius: 5px;
+    color: white;
+	display: inline-block;
+	font-size: 14px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
+}
