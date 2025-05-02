@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="storageWars.js"></script>
+    <title>Storage Wars</title>
+</head>
+<body style="max-width: fit-content; margin-left: auto; margin-right: auto;">
+    <div>
+        <input type="text" id="inputJWT">
+        <button id="addToken" onclick="addToken()">Add JWT</button>
+    </div>
+    <div id="userInfo" style="display: none;">
+        <h1>User Info</h1>
+        <p>Name: <span id="name"></span></p>
+        <p>Email: <span id="email"></span></p>
+        <p>Age: <span id="age"></span></p>
+    </div>
+    <div id="error"></div>
+</body>
+</html>

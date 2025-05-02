@@ -1,0 +1,74 @@
+[
+    {
+      "id":0,
+      "name": "Cheeseburger",
+      "description": "Beef patty, melted cheese, ketchup, mustard, pickles",
+      "price": 4.99,
+      "customer_note": 4.5,
+      "stocks": 20
+    },
+    {
+      "id":1,
+      "name": "Fries",
+      "description": "Crispy, golden-brown potato sticks",
+      "price": 2.49,
+      "customer_note": 4.0,
+      "stocks": 50
+    },
+    {
+      "id":2,
+      "name": "Hot Dog",
+      "description": "Grilled all-beef frankfurter, topped with ketchup, mustard, and relish",
+      "price": 3.99,
+      "customer_note": 3.5,
+      "stocks": 15
+    },
+    {
+      "id":3,
+      "name": "Chicken Nuggets",
+      "description": "Crispy breaded chicken bites, perfect for dipping",
+      "price": 5.99,
+      "customer_note": 4.2,
+      "stocks": 30
+    },
+    {
+      "id":4,
+      "name": "Milkshake",
+      "description": "Thick and creamy vanilla milkshake, made with real ice cream",
+      "price": 3.49,
+      "customer_note": 4.8,
+      "stocks": 10
+    },
+    {
+      "id":5,
+      "name": "BBQ Bacon Burger",
+      "description": "Beef patty, bacon, cheddar cheese, onion rings, BBQ sauce",
+      "price": 7.99,
+      "customer_note": 4.3,
+      "stocks": 5
+    },
+    {
+      "id":6,
+      "name": "Onion Rings",
+      "description": "Crispy fried onion rings, perfect as a side",
+      "price": 2.99,
+      "customer_note": 4.0,
+      "stocks": 40
+    },
+    {
+      "id":7,
+      "name": "Chicken Sandwich",
+      "description": "Grilled chicken breast, lettuce, tomato, mayo",
+      "price": 6.49,
+      "customer_note": 3.8,
+      "stocks": 25
+    },
+    {
+      "id":8,
+      "name": "Spicy Chicken Nuggets",
+      "description": "Crispy breaded chicken bites with a spicy kick",
+      "price": 6.99,
+      "customer_note": 4.5,
+      "stocks": 15
+    }
+]
